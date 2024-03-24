@@ -554,7 +554,7 @@ class="subscribe-input-email"></label>
                 class="modal-input"
                 id="user-name"
               />
-              <svg class="modal-icon" width="18" height="18">
+              <svg class="modal-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
               </svg>
             </div>
@@ -590,24 +590,25 @@ class="subscribe-input-email"></label>
           </div>
           </div>
 
-          <div class="modal-form">
+          <div class="modal-form-textarea">
             <label for="user-comment" class="modal-label">Comment</label>
             <textarea 
-            name="Comment" 
+            name="user-comment"
              id="user-comment" 
               placeholder="Text input"
               class="modal-text"
              ></textarea>
           </div>
 
-          <div class="modal-form">
+          <div class="modal-form-checkbox">
             
             <input type="checkbox"
-             name="Privacy" 
+             name="user-privacy" 
              required 
-             id="privacy"
-              class="modal-check">
-            <label for="privacy" class="check-text"> 
+             id="user-privacy"
+             value="true"
+              class="modal-check visually-hidden">
+            <label for="userr-privacy" class="check-text"> 
               <span class="check-text-icon">
                 <svg class="modal-icon-check" width="10" height="8">
                   <use href="./images/icons.svg#icon-Vector"></use>
@@ -615,9 +616,9 @@ class="subscribe-input-email"></label>
               </span>I  accept the terms and conditions of the <a href=" " class="check-link">Privacy Policy</a></label>
           </div>
 
-          <div class="modal-form-button">
+          <!-- <div class="modal-form-button"> -->
              <button type="submit" class="button-send">Send</button>
-            </div>
+            <!-- </div> -->
         </form>
      
    
