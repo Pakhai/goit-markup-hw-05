@@ -704,7 +704,8 @@ color: #fff;
 
 .check-text{
   position: relative;
-  display: flex;
+  /* display: flex; */
+  display: inline-flex;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -720,7 +721,7 @@ color: #fff;
 }
 
 .check-text-icon{
-  display: inline-flex;
+  /* display: inline-flex; */
   align-items: center;
   justify-content: center;
   fill:transparent;
