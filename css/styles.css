@@ -641,11 +641,11 @@ color: #fff;
   fill: #4d5ae5;
 }
 
+.modal-form{margin-bottom: 8px;}
+
 .modal-label {
   font-size: 12px;
-
-  line-height: 14px;
-  /* line-height: 1.16667; */
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
   display: block;
